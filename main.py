@@ -21,6 +21,9 @@ while a < 10 :
         print("같은 방향을 선택했습니다.")
         print("생존입니다.")
         a += 1
+        if a == 10:
+            print("이번 라운드를 통과하셨습니다.")
+            print("축하드립니다!")
     else :
         print("강화유리는 {}입니다.".format(dir[br]))
         print("으아아아악~")
